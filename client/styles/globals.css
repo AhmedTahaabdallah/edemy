@@ -1,0 +1,39 @@
+.square {
+    border-radius: 0px;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(to right, #007bff, #000);
+}
+
+.jumbotron, .jumbotron h1 {
+    color: #fff;
+}
+
+.ant-card {
+    max-width: 40% !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ant-avatar-string {
+    line-height: 32px;
+}
+
+.lessons-list, .lessons-list > li {
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow: 'auto'; 
+    overflow-X: 'hidden';
+}
+
+.collapsed-lessons-list > li {
+    padding-inline-start: 10px !important;
+    overflow: 'auto'; 
+    overflow-X: 'hidden';
+}
